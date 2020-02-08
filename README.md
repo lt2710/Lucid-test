@@ -1,5 +1,5 @@
 ## Modeling building and deployment with Python and Docker
-Building a classification model with highly imbalance data, and deploy an API for predicting new data in Docker.
+Built and deployed a classification model with highly imbalance data. In the independent Docker container, user can send new data with a POST request to a Flask endpoint and the predicted values will be returned. 
 
 Docker image available at: https://hub.docker.com/r/lt2710/lucid-test
 
@@ -18,6 +18,9 @@ API
  - Disabled GET request
 
 Docker code to build, run and commit the container: 
+
 cd Documents/GitHub/Lucid-test
+
 docker build -t lt2710/small .
+
 docker run -p 5000:5000 lt2710/small
