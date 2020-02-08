@@ -1,8 +1,8 @@
 # Lucid-test
 DS assignment for Lucid
-Build a classification model with highly imbalance data, and upgrade Docker settings for a old model in Python
+Build a classification model with highly imbalance data, and deploy in Docker.
+https://hub.docker.com/r/lt2710/lucid-test
 
-# 
 
 # Docker code to build, run and commit the container
 cd Documents/GitHub/Lucid-test
